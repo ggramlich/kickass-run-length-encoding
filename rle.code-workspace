@@ -1,0 +1,20 @@
+{
+	"folders": [
+        {
+            "name": "rle",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.asm": "kickassembler"
+        },
+        "kickassembler.outputDirectory": "./Output",
+        "files.exclude": {
+            "**/.asminfo.txt": true,
+            "**/.source.txt": true,
+            "**/Output": true
+        },
+        "kickassembler.debuggerOptions": "-wait 12000 -autojmp"
+    }
+}
